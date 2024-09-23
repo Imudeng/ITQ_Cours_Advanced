@@ -26,5 +26,5 @@ public class Primer2 {
             System.out.println(role[i]);
         }
     }
-}/*авп
+}
 
