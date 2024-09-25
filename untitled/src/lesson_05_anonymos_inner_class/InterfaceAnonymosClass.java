@@ -6,8 +6,7 @@ import java.util.Comparator;
 public class InterfaceAnonymosClass {
     public static void main(String[] args) {
         String [] word = {"Hello", "Cat", "Home", "Student"};
-        Comparator<String> comparator = new Comparator<String>()
-        /** анонимный класс **/
+        Comparator<String> comparator = new Comparator<String>() /** анонимный класс **/
         {
             @Override
             public int compare(String o1, String o2) {
@@ -19,5 +18,4 @@ public class InterfaceAnonymosClass {
         // получим имя анонимного класса в статическом методе
         System.out.println(comparator.getClass().getName());
     }
-
 }
