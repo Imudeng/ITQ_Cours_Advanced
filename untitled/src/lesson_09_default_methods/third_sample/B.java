@@ -1,6 +1,6 @@
-package lessom_09_default_methods.second_ample;
+package lesson_09_default_methods.third_sample;
 
-public interface B extends A {
+public interface B {
     public default String getMessage() {
         return "Hello Java";
     }

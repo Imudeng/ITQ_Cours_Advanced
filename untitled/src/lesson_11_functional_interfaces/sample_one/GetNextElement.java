@@ -1,4 +1,4 @@
-package lesson_11_functional_interfaces.saple_one;
+package lesson_11_functional_interfaces.sample_one;
 
 public interface GetNextElement {
     public int get();

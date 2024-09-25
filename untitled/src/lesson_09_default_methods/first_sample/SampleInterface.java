@@ -1,4 +1,4 @@
-package lessom_09_default_methods.first_sample;
+package lesson_09_default_methods.first_sample;
 
 public interface SampleInterface {
     public default String getMessage() {

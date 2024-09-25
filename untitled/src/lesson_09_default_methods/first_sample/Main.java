@@ -1,4 +1,4 @@
-package lessom_09_default_methods.first_sample;
+package lesson_09_default_methods.first_sample;
 
 public class Main {
     public static void main(String[] args) {

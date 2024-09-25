@@ -1,4 +1,4 @@
-package lessom_09_default_methods.second_ample;
+package lesson_09_default_methods.third_sample;
 
 public class Main {
     public static void main(String[] args){
@@ -10,6 +10,7 @@ public class Main {
         System.out.println(c.getMessage());
         System.out.println(interfaceA.getMessage());
         System.out.println(interfaceB.getMessage());
+        System.out.println(c.toString());
 
     }
 }
