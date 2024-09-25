@@ -1,9 +1,10 @@
 package lessom_09_default_methods.third_sample;
 
-public class C implements B {
+public class C extends RealizationA implements B {
     private String text;
 
     public C(String text) {
+        super(text);
         this.text = text;
     }
 
