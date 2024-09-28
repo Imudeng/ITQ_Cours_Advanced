@@ -1,4 +1,4 @@
-package lesson_11_functional_interfaces.sample_one;
+package lesson_11_functional_interfaces.sample_01;
 
 import java.util.ArrayList;
 import java.util.List;

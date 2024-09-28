@@ -1,4 +1,4 @@
-package lesson_11_functional_interfaces.sample_two;
+package lesson_11_functional_interfaces.sample_02;
 
 public class SimpleGen {
     private int number;
