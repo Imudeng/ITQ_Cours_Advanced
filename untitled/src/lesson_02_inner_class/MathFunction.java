@@ -1,7 +1,7 @@
 package lesson_02_inner_class;
 
 public class MathFunction {
-    private class Square extends Function {
+    private class Square extends Function1 {
 
         @Override
         public int function(int n) {
@@ -9,7 +9,7 @@ public class MathFunction {
         }
     }
 
-    private class Cube extends Function {
+    private class Cube extends Function1 {
 
 
         @Override
@@ -18,11 +18,11 @@ public class MathFunction {
         }
     }
 
-    public Function getSqare() {
+    public Function1 getSqare() {
         return new Square();
     }
 
-    public Function getCube() {
+    public Function1 getCube() {
         return new Cube();
     }
 }

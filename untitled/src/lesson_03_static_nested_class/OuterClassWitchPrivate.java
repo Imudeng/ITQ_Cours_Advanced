@@ -9,15 +9,20 @@ public class OuterClassWitchPrivate {
     }
 
     public static class NestedClas {
-        private String word;
+        private static String word;
 
         public NestedClas(String word) {
             this.word = word;
         }
 
-        public void printText(OuterClassWitchPrivate ocwp) {
+        public static void printText(OuterClassWitchPrivate ocwp) {
             System.out.println(word + " " + number + ocwp.text);
         }
+        public void methodName() {
+            extracted();     }
+            }
 
+    private static void extracted() {
+        System.out.println("Hallo World");
     }
 }

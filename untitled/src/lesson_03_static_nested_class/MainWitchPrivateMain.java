@@ -4,7 +4,7 @@ public class MainWitchPrivateMain {
     public static void main(String[] args) {
         OuterClassWitchPrivate ocwp = new OuterClassWitchPrivate(" Word");
         OuterClassWitchPrivate.NestedClas on = new OuterClassWitchPrivate.NestedClas("Hello");
-        on.printText(ocwp);
+        OuterClassWitchPrivate.NestedClas.printText(ocwp);
     }
 }
 

@@ -7,7 +7,7 @@ public class MainMathFunction {
         System.out.println(calculate(mathFunction.getSqare(),1,4));
         System.out.println(calculate(mathFunction.getCube(),1,4));
     }
-    public static int calculate(Function fun, int begin, int end) {
+    public static int calculate(Function1 fun, int begin, int end) {
         return fun.calculation(begin,end);
     }
 }
