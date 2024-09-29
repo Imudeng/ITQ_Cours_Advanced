@@ -1,4 +1,4 @@
-package lesson_15_function.map.sample_01;
+package lesson_15_function.map;
 
 import java.util.HashMap;
 import java.util.Map;
