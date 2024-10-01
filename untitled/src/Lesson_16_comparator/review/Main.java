@@ -1,6 +1,6 @@
 package Lesson_16_comparator.review;
 
-import lesson_16_predicate.predicate.sample_01.Cat;
+import lesson_14_predicate.predicate.sample_01.Cat;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -8,11 +8,11 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        lesson_16_predicate.predicate.sample_01.Cat cat1 = new lesson_16_predicate.predicate.sample_01.Cat("Boris", 5);
-        lesson_16_predicate.predicate.sample_01.Cat cat2 = new lesson_16_predicate.predicate.sample_01.Cat("Zefir", 15);
-        lesson_16_predicate.predicate.sample_01.Cat cat3 = new lesson_16_predicate.predicate.sample_01.Cat("Vasia", 3);
-        lesson_16_predicate.predicate.sample_01.Cat cat4 = new lesson_16_predicate.predicate.sample_01.Cat("Fenia", 2);
-        lesson_16_predicate.predicate.sample_01.Cat cat5 = new lesson_16_predicate.predicate.sample_01.Cat("Masha", 7);
+        lesson_14_predicate.predicate.sample_01.Cat cat1 = new lesson_14_predicate.predicate.sample_01.Cat("Boris", 5);
+        lesson_14_predicate.predicate.sample_01.Cat cat2 = new lesson_14_predicate.predicate.sample_01.Cat("Zefir", 15);
+        lesson_14_predicate.predicate.sample_01.Cat cat3 = new lesson_14_predicate.predicate.sample_01.Cat("Vasia", 3);
+        lesson_14_predicate.predicate.sample_01.Cat cat4 = new lesson_14_predicate.predicate.sample_01.Cat("Fenia", 2);
+        lesson_14_predicate.predicate.sample_01.Cat cat5 = new lesson_14_predicate.predicate.sample_01.Cat("Masha", 7);
         List<Cat> cats = new ArrayList<>(List.of(cat1, cat2, cat3, cat4, cat5));
         CatAgeComparator comp = new CatAgeComparator();
         System.out.println(comp.compare(cat1, cat2) == -comp.compare(cat2, cat1));

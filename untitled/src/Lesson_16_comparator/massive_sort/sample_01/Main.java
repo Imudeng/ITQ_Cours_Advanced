@@ -1,6 +1,6 @@
 package Lesson_16_comparator.massive_sort.sample_01;
 
-import lesson_16_predicate.predicate.sample_01.Cat;
+import lesson_14_predicate.predicate.sample_01.Cat;
 
 import java.util.Arrays;
 import java.util.Comparator;
